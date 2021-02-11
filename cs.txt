@@ -1,0 +1,154 @@
+*{   
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    background: #eee;
+    color: #555;
+    line-height: 1.6;
+}
+header
+{
+    background-color: #222;
+}
+.container
+{ 
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 25px;
+    background-color: #fff;
+}
+body header div
+{
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-block: auto;
+}
+main div div
+{
+    display: flex;
+    float: left;
+    align-items: flex-end;
+    padding-top: 15px;
+
+
+}
+.contato-top a
+{
+    display: flex;
+    flex-direction: column;
+    color: #555;
+    align-items: flex-end
+}    
+.menu ul
+{
+    display: flex;
+    float:left;
+    margin: 10px;
+    color: #eee;
+    font-size: xx-small;
+    padding: 0px 30px 0px 0px;
+}
+.menu-top
+{
+    display: flex;
+    background-color: #222;
+    color: aliceblue;
+    margin-top: 8px;
+
+}
+main div section 
+{
+	flex-wrap:wrap;
+    text-align: center;
+}
+footer section div
+{
+    justify-content: space-between;
+}
+footer section
+{
+    background-color: #222;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 10px;
+}
+#cs
+{
+    border: 0;
+    color: #fff;
+    background-color:rgb(20, 20, 20);
+}
+nav div ul
+{
+    display: flex;
+    text-decoration:none;
+    list-style-type: none;
+}
+a
+{
+    text-decoration:none; 
+} 
+#menu-h a
+{
+    font-size: 12px;
+    padding-left: 36px;
+    color: #eee;
+    margin-bottom: 10PX;
+}
+#menu-h{
+    margin-bottom: 10PX;
+    margin-top: 8px;
+}
+.search{
+font-display: ;
+background: border-box;
+border: 0;
+margin-bottom: 5PX;
+padding-left: 6px;
+}
+
+.container img{
+    margin-top: 25px;
+}
+.container nav {
+
+border-radius:  10px;
+}
+.container article{
+    margin-top: 1   px;
+}
+.contato-top{
+    margin-right: 10px;
+    display: -webkit-box;
+}
+.gear2 h3 {
+    padding-left: 10px;
+    font-size: 20px;
+}
+#box{
+    padding-top: 30px;
+}
+.container article{
+    flex: ;
+}
+#cs li{
+    text-transform: uppercase;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 12px;
+    color: #666;;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+#cs p
+{
+    margin-top: 10px;
+    font-size: 12px;
+    padding-left: 30px;
+
+}
+
