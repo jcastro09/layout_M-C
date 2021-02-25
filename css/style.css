@@ -57,6 +57,7 @@ main div div
     background-color: #222;
     color: aliceblue;
     margin-top: 8px;
+    width: 100%;
 
 }
 main div section 
@@ -106,6 +107,7 @@ a
 #menu-h{
     margin-bottom: 10PX;
     margin-top: 8px;
+    width: auto;
 }
 .search{
 font-display: ;
@@ -189,6 +191,7 @@ border-radius:  10px;
 #slide img
 {
     box-shadow: 2px 2px 2px 2px #8a8a8a;
+    width: 100%;
 }
 .none {
     text-decoration:none;
@@ -198,6 +201,63 @@ border-radius:  10px;
 }
 html{
     flex: auto;
-font    
 }
+
+@media (max-width: 999px){
+    #menu-h li a{
+font-size: 100%;    }
+    .bloco1{      
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:2rm;
+
+        }
+    .bloco2{      
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:2rm;
+
+        }
+}
+@media (max-width: 700px){
+    .contato-top{
+        opacity: 0;
+    }
+    .logoatt{
+        width: 100%;
+    }
+    .menu ul { 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap:2rm;
+    }
+
+}
+@media (max-width: 480px){
+    #menu-h li a{
+        font-size: 80%;}
+    .bloco1{      
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap:2rm;
+
+        }
+    .bloco2{      
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap:2rm;
+
+        }
+}
+@media (max-width: 420px){
+    .menu ul { 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:2rm;
+    }
+    .search{
+        width: 100px;
+    }
+
+
 
