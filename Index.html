@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans:bold&amp;subset=cyrillic">
 
+    <!--OWL-->
+    <link rel="stylesheet" href="CSS/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="CSS/owl/owl.theme.default.min.css">
+
 </head>
 <body>
     <header>
@@ -44,7 +48,14 @@
             </nav>
         </div>
         <div class="container" id="slide">
-                    <img src="img/imgcentral1.jpg" alt="">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item-slide">
+                            <img class="box-slide" src="img/imgcentral1.jpg" alt="">
+                        </div>
+                        <div class="item-slide">
+                            <img class="box-slide" src="img/imgcentral2.jpg" alt="">
+                        </div>
+                    </div>
         </div>
     </header>
     <main>
@@ -123,5 +134,10 @@
             </div>
         </section>
     </footer>
+        <!--JS-->
+
+        <script src="Js/owl/jquery.min.js"></script>
+        <script src="Js/owl/owl.carousel.min.js"></script>
+        <script src="Js/owl/setup.js"></script>
 </body>
 </html>

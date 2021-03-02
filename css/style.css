@@ -188,6 +188,7 @@ border-radius:  10px;
     width: auto;
     margin: 0px 10px 10px 10px;
 }
+
 #slide img
 {
     box-shadow: 2px 2px 2px 2px #8a8a8a;
@@ -261,3 +262,8 @@ font-size: 100%;    }
 
 
 
+@keyframes #slide {
+    
+    0%(left:0px)
+    30%(:-400px)
+}
